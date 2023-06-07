@@ -1,0 +1,31 @@
+/*header*/
+@import url("/assets/css/header.css");
+
+/*main section*/
+@import url("/assets/css/main.css");
+
+/*footer*/
+@import url("/assets/css/footer.css");
+
+/*text font*/
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;600&display=swap');
+
+:root{
+   --backgound: #000000;
+   --texto-cor: #FEFEFE;
+   --detalhes: #232323;
+   --texto: 'Work Sans', sans-serif;
+   --acordion-button: #2D2D2D;
+   --footer-texto: rgb(215, 210, 210);
+}
+
+body{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   font-family: var(--texto);
+   text-align: center;
+   color: var(--texto-cor);
+   background-color: var(--backgound);
+   width: 100%;
+}

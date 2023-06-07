@@ -1,0 +1,117 @@
+.principal{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+
+.titulo-blocos{
+   font-size: 28px;
+   font-weight: 600;
+   margin: 40px 20px 20px 10px;
+}
+
+.perguntas{
+   font-size: 22px;
+   font-weight: 400;
+   margin: 15px 5px 5px 5px;
+}
+
+.paragrafo-bloco{
+   font-size: 20px;
+   font-weight: 200;
+   margin: 12px;
+   padding-bottom: 2px;
+}
+
+.img-bloco01, .img-bloco02, .img-bloco03, .img-bloco04, .img-bloco05, .img-bloco06{
+   width: 100%;
+   height: 273px;
+   object-fit: cover;
+   object-position: center;
+   padding-bottom: 5px;
+}
+
+.linhas{
+   display: flex;
+   width: 100%;
+   height: 7px;
+   background-color: var(--detalhes);
+}
+
+/*according menu*/
+.informacoes{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 30px;
+}
+.titulo-according{
+   color: var(--detalhes);
+   font-size: 38px;
+   font-weight: 600;
+   line-height: 40px;
+   padding: 25px 0;
+   margin: 10px 0;
+   width: 100%;
+}
+
+/*Accordion menu*/
+.accordion-box{
+   width: 100%;
+   text-align: left;
+}
+.conteudo-box{
+   position: relative;
+   margin: 10px 20px;
+}
+
+.titulo-label{
+   position: relative;
+   padding: 20px 30px 20px 10px;
+   background: var(--acordion-button);
+   color: #fff;
+   cursor: pointer;
+   font-size: 18px;
+}
+
+.titulo-label::after{
+   content: '\2BC6';
+   position: absolute;
+   top: 50%;
+   right: 20px;
+   transform: translateY(-50%);
+   font-size: 12px;
+}
+
+.conteudo-box.active .titulo-label::after{
+   content: '\2BC5';
+}
+.conteudo-paragrafo{
+   position: relative;
+   background: var(--detalhes);
+   font-size: 18px;
+   line-height: 28px;;
+   color: var(--cinza);
+   font-family: var(--fonte-corpo);
+   font-weight: 500;
+   height: 0;
+   overflow: hidden;
+   transition: 0s;
+   overflow-y: auto;
+}
+
+.conteudo-box.active .conteudo-paragrafo{
+   height: 100%;
+   padding: 10px 20px 15px 10px;
+}
+
+.accordion-encerramneto{
+   font-size: 26px;
+   font-weight: 400;
+   color: var(--detalhes);
+   padding: 40px 10px 20px 10px;
+   width: 95%;
+}

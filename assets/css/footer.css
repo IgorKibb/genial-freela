@@ -1,0 +1,22 @@
+.rodape{
+   padding-bottom: 50px;
+}
+
+.titulo-footer{
+   font-size: 22px;
+   font-weight: 400;
+   padding: 20px 0px 0px 0px;
+   color: var(--footer-texto);
+}
+
+.paragrafo-footer{
+   font-size: 20px;
+   font-weight: 300;
+   color: var(--footer-texto);
+}
+
+.link{
+   font-size: 20px;
+   font-weight: 300;
+   color: var(--footer-texto);
+}
