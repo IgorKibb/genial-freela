@@ -8,13 +8,13 @@
 @import url("/assets/css/footer.css");
 
 /*text font*/
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 :root{
    --backgound: #000000;
    --texto-cor: #FEFEFE;
    --detalhes: #232323;
-   --texto: 'Work Sans', sans-serif;
+   --texto: 'Open Sans', sans-serif;
    --acordion-button: #2D2D2D;
    --footer-texto: rgb(215, 210, 210);
 }
