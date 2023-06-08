@@ -77,7 +77,7 @@
    padding-bottom: 30px;
 }
 .titulo-according{
-   color: var(--detalhes);
+   color: var(--texto-cor);
    font-size: 38px;
    font-weight: 600;
    line-height: 40px;
@@ -106,7 +106,7 @@
 }
 
 .titulo-label::after{
-   content: '\2BC6';
+   content: '+';
    position: absolute;
    top: 50%;
    right: 20px;
@@ -115,7 +115,7 @@
 }
 
 .conteudo-box.active .titulo-label::after{
-   content: '\2BC5';
+   content: 'x';
 }
 .conteudo-paragrafo{
    position: relative;
@@ -139,7 +139,33 @@
 .accordion-encerramneto{
    font-size: 26px;
    font-weight: 400;
-   color: var(--detalhes);
+   color: var(--texto-cor);
    padding: 40px 10px 20px 10px;
    width: 95%;
+}
+
+/*media screen desktop*/
+@media screen and (min-width: 1200px){
+   .container-desktop{
+      align-items: center;
+      display: flex;
+      gap: 3.5rem;
+      justify-content: space-between;
+      padding: 100px 0px 150px 0px;
+      width: 70%;
+   }
+   .chamada-corpo{
+      font-size: 26px;
+      font-weight: 800;
+      padding: 0px;
+      text-align: left;
+   }
+   .img-chamadaCorpo{
+      border-radius: 0.8rem 5rem;
+      width: 450px;
+      height: 300px;
+      object-fit: cover;
+      object-position: center;
+      padding-bottom: 0px;
+   }
 }
