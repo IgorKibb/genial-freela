@@ -168,4 +168,41 @@
       object-position: center;
       padding-bottom: 0px;
    }
+   .titulo-blocos{
+      font-size: 32px;
+      margin: auto;
+      padding-top: 50px;
+      width: 80%
+   }
+   .blocos{
+      align-items: center;
+      display: flex;
+      gap: 2rem;
+      margin: auto;
+      padding: 90px 0px 90px 0px;
+      width: 80%;
+   }
+   .img-bloco01, .img-bloco03, .img-bloco05{
+      border-radius: 5rem 0.8rem;
+      order: -1;
+      width: 400px;
+      height: 300px;
+   }
+   .img-bloco02, .img-bloco06{
+      border-radius: 0.8rem 5rem;
+      width: 400px;
+      height: 300px;
+   }
+   .img-bloco04{
+      order: 1;
+      border-radius: 0.8rem 5rem;
+      width: 400px;
+      height: 300px;
+   }
+   .paragrafo-bloco{
+      font-size: 22px;
+   }
+   .informacoes{
+      width: 80%;
+   }
 }

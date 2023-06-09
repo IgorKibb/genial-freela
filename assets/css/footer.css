@@ -32,3 +32,12 @@
 .imagem-footer{
    width: 2rem;
 }
+
+/*media screen desktop*/
+@media screen and (min-width: 1200px){
+   .rodape{
+      display: flex;
+      gap: 8rem;
+      margin-top: 60px;
+   }
+}
