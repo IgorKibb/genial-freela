@@ -15,8 +15,20 @@
 <body>
    <header class="cabecalho">
       <div class="cabecalho-container">
-         <img src="/assets/images/logo.png" class="logo" alt="logo de la compañía">
+         
          <img src="/assets/images/banner.jpg" class="banner" alt="personas en reunión de negocios.">
+         <nav aria-label="Abrir Menu" class="navbar">
+            <img src="/assets/images/logo.png" class="logo" alt="logo de la compañía">
+               <ul class="nav-menu">
+                  <li class="nav-item easter-egg"><a class="nav-link" href="#quees">¿Qué es Genial?</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+               </ul>
+               <div class="hamburguer">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+               </div>
+         </nav>
          <div class="chamada">
             <h1 class="chamada-titulo">Marca Blanca para gestor documental y Control de Asistencia.</h1>
             <p class="paragrafo-titulo">Resolvemos el desarrollo y gestión de soluciones de Gestión de 
@@ -25,6 +37,36 @@
       </div>
    </header>
    <main class="principal">
+      <div class="ques" id="quees">
+         <h2 class="titulo-blocos">¿Qué es Genial?</h2>
+         <p class="paragrafo-bloco">Genial™, es una Fintech fundada en Chile. Dicha sociedad nace con el objetivo de servir a 
+            empresas en su necesidad de ser respaldados en sus soluciones de Documentación Laboral 
+            Electrónica y de Registro y Control de Asistencia Digital. Su objetivo es cambiar el largo 
+            y complejo proceso de diseño, desarrollo, certificación y autorización ante la Dirección 
+            del Trabajo. Genial™ ofrece tecnologías y recursos adicionales a tus clientes, 
+            tercerizando una estructura de productos, servicios o modelos previamente hechos.
+         </p>
+         <p class="paragrafo-bloco">Visto desde un punto de vista general, Genial™ se encarga de proveer un servicio amplio 
+               y adecuado a las necesidades de funcionamiento y crecimiento empresarial. 
+               Todo esto lo logramos al unificar todos los niveles de la gestión de la Documentación 
+               Laboral Electrónica y de Registro y Control de Asistencia Digital. 
+               En resumen, Genial™ logra ser un enlace único entre los clientes y las soluciones 
+               electrónicas, unificando todas las etapas, desde el enrolamiento hasta la fima de 
+               los documentos y el Registro y Control de Asistencia Digital, siempre cumpliendo el 
+               marco legal vigente.
+         </p>
+         <p class="paragrafo-bloco">
+            Entre los principales beneficios que ofrece esta compañía, podemos destacar la facilidad 
+            y rapidez de ejecución de procesos. A través de Genial™, las empresas pueden prestar 
+            a sus clientes el Servicio de Documentación Laboral Electrónica y de Registro y 
+            Control de Asistencia Digital. Una oferta que otros proveedores de servicios no pueden
+            igualar.
+         </p>
+         <p class="paragrafo-bloco">
+            Genial™ es una plataforma única y desarrollada específicamente para 
+            lo que necesita cada cliente.
+         </p>
+      </div>
       <div class="container-desktop">
          <h2 class="chamada-corpo">Si tienes una empresa de Auditoria, Contabilidad, Recursos Humanos y otros servicios, 
             desde hoy puedes ofrecerles la Gestión Documental y de Control de Asistencia.</h2>
@@ -196,7 +238,7 @@
       </section>
       <span class="linhas"></span>
    </main>
-   <footer class="rodape">
+   <footer class="rodape" id="contacto">
       <div class="bloco-footer">
          <img src="/assets/images/email.svg" class="imagem-footer" alt="email logo">
          <h4 class="titulo-footer">Email:</h4>
@@ -215,6 +257,7 @@
    </footer>
 
    <script src="/assets/js/accordin.js"></script>
+   <script src="/assets/js/menu.js"></script>
 </body>
 
 </html>

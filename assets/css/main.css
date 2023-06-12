@@ -68,6 +68,14 @@
    margin-top: 10px;
 }
 
+.ques{
+   display: none;
+}
+.ques.active{
+   display: flex;
+   flex-direction: column;
+}
+
 /*according menu*/
 .informacoes{
    display: flex;
